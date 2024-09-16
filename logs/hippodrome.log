@@ -1,0 +1,11 @@
+2024-09-16 15:36:49,507 ERROR Hippodrome: Horses list is null
+2024-09-16 15:36:49,549 ERROR Hippodrome: Horses list is empty
+2024-09-16 15:36:49,738 ERROR Horse: Name is blank
+2024-09-16 15:36:49,752 ERROR Horse: Name is blank
+2024-09-16 15:36:49,754 ERROR Horse: Name is blank
+2024-09-16 15:36:49,757 ERROR Horse: Name is blank
+2024-09-16 15:36:49,760 ERROR Horse: Name is blank
+2024-09-16 15:36:49,763 ERROR Horse: Name is blank
+2024-09-16 15:36:49,817 ERROR Horse: Distance is negative
+2024-09-16 15:36:49,819 ERROR Horse: Speed is negative
+2024-09-16 15:36:49,825 ERROR Horse: Name is null
