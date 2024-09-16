@@ -27,7 +27,7 @@ jobs:
         if: always()
         with:
           files: |
-            "**/target/surefire-reports/*.xml"
+            target/surefire-reports/*.xml
           report_individual_runs: true
 
       - name: Tests Report 2
@@ -35,14 +35,14 @@ jobs:
         if: always()    # run this step even if previous step failed
         with:
           name: Tests Report 2           # Name of the check run which will be created
-          path: "**/target/surefire-reports/*.xml"    # Path to test results
+          path: target/surefire-reports/*.xml    # Path to test results
           reporter: java-junit        # Format of test results
 
       - name: Test Report 3
         uses: mikepenz/action-junit-report@v3
         if: always() # always run even if the previous step fails
         with:
-          report_paths: "**/target/surefire-reports/*.xml"
+          report_paths: 'target/surefire-reports/*.xml'
 
       - name: Upload test results to testhub.io
         if: always()
